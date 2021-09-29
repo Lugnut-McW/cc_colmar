@@ -1,0 +1,45 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-item {
+    float: right;
+}
+
+.nav-item a {
+    display: block;
+    padding: 0px 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+}
+
+.nav-menu {
+    background-color:aqua;
+    line-height: 64px;
+    height: 64px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#colmar-academy {
+    float: left;
+    font-size: 32px;
+    padding-left: 8px;
+    text-align: center;
+}
+
+#logo {
+    height: 48px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+#nav-end {
+    margin-right: 16px;
+}
