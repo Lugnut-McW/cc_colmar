@@ -52,6 +52,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8px 0;
 }
 
 .hero-image {
@@ -90,4 +91,38 @@ html {
 .hero-button:hover {
     cursor: pointer;
     background-color:rgb(63, 63, 63)
+}
+
+/*Colmar Academy information section*/
+.colmar-info {
+    overflow: hidden;
+}
+
+.info-main {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 32px 0 24px;
+    color:dimgray;
+}
+
+.info-image {
+    float: left;
+    padding: 24px;
+    width: 55vw;
+}
+
+#info-image-img {
+    width: 55vw;
+}
+
+.info-lorem {
+    font-size: 22px;
+    color: dimgray;
+    font-style: italic;
+}
+
+.info-quote {
+    font-size: 22px;
+    padding: 32px 0;
+    color:dimgray;
 }
