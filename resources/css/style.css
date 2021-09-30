@@ -2,6 +2,7 @@ html {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*Navigation bar and components*/
 .nav-item {
     float: right;
 }
@@ -42,4 +43,51 @@ html {
 
 #nav-end {
     margin-right: 16px;
+}
+
+/*Hero section*/
+.hero-banner {
+    background-color:lightgrey;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    float: left;
+    padding: 24px;
+}
+
+#hero-image-img {
+    width: 55vw;
+}
+
+.hero-text {
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    padding: 32px 0;
+}
+
+.hero-text h3 {
+    font-size: 32px;
+}
+
+.hero-button {
+    background-color:dimgrey;
+    color:floralwhite;
+    font-size: 32px;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    margin: 32px 0;
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    background-color:rgb(63, 63, 63)
 }
