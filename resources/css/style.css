@@ -72,10 +72,12 @@ html {
 .hero-text h1 {
     font-size: 64px;
     padding: 32px 0;
+    color:rgb(85, 85, 85);
 }
 
 .hero-text h3 {
     font-size: 32px;
+    color:rgb(85, 85, 85);
 }
 
 .hero-button {
@@ -167,4 +169,52 @@ html {
 .card-link {
     font-size: 22px;
     text-decoration: none;
+    color:cornflowerblue;
+}
+
+/*Start learning section*/
+.start-learning {
+    background-color: lightgray;
+}
+
+.learning-title {
+    font-size: 64px;
+    padding: 32px 0;
+    color:rgb(85, 85, 85);
+    text-align: center;
+    font-weight: bold;
+}
+
+.learning-cards {
+    padding: 0 56px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+}
+
+.course-card {
+    background-color:ghostwhite;
+    margin: 16px;
+    height: auto;
+    width: 30%;
+    padding-bottom: 16px;
+    overflow: hidden;
+}
+
+.course-image-img {
+    width: 100%;
+}
+
+.course-title {
+    font-size: 32px;
+    color:rgb(85, 85, 85);
+    padding: 16px;
+}
+
+.course-p {
+    font-size: 22px;
+    color:gray;
+    padding: 8px 16px;
 }
