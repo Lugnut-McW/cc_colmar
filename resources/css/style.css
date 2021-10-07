@@ -17,10 +17,12 @@ html {
 
 .nav-item a:hover {
     cursor: pointer;
+    background-color: lightgray;
+    transition: .75s;
 }
 
 .nav-menu {
-    background-color:aqua;
+    background-color:ghostwhite;
     line-height: 64px;
     height: 64px;
     overflow: hidden;
@@ -175,6 +177,7 @@ html {
 /*Start learning section*/
 .start-learning {
     background-color: lightgray;
+    padding-bottom: 32px;
 }
 
 .learning-title {
@@ -217,4 +220,91 @@ html {
     font-size: 22px;
     color:gray;
     padding: 8px 16px;
+}
+
+/*Thesis exhbit and video section*/
+.thesis-exhibit {
+    overflow: hidden;
+}
+
+.thesis-title {
+    font-size: 64px;
+    padding: 32px 0 8px;
+    color:rgb(85, 85, 85);
+    text-align: center;
+    font-weight: bold;
+}
+
+.thesis-main {
+    float: left;
+    padding: 24px;
+    width: 55vw;
+}
+
+.thesis-video-vid {
+    width: 55vw;
+}
+
+.video-main {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 32px 0 24px;
+    color:dimgray;
+}
+
+.video-lorem {
+    font-size: 22px;
+    color: dimgray;
+    font-style: italic;
+}
+
+.thesis-cards {
+    margin: 16px 0 16px 0;
+    height: 100%;
+}
+
+.thesis-card {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-right: 24px;
+}
+
+.thesis-card:hover {
+    background-color:lightgray;
+    transition: background-color 1.5s;
+}
+
+.thesis-card-body {
+    color:darkgray;
+}
+
+/*Footer*/
+.foot-nav {
+    padding: 16px 24px 32px;
+    color: dimgray;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot-item {
+    float: right;
+}
+
+.foot-item a {
+    display: inline-block;
+    padding: 0px 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.foot-item a:hover {
+    cursor: pointer;
+    color: lightgray;
+    transition: color .75s;
+}
+
+#copyright {
+    float: left;
 }
