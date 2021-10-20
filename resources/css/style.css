@@ -308,3 +308,37 @@ html {
 #copyright {
     float: left;
 }
+
+/*Mobile layout section*/
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-flex;
+        height: 64px;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+    }
+/*Hero mobile*/
+    .hero-image {
+        float: none;
+        padding: 0;
+        width: 100vw;
+    }
+
+    #hero-image-img {
+        width: 100vw;
+    }
+
+    .hero-banner {
+        display: block;
+        padding-top: 0px;
+    }
+
+    .hero-text {
+        padding: 16px;
+    }
+}
