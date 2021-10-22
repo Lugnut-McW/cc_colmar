@@ -341,4 +341,38 @@ html {
     .hero-text {
         padding: 16px;
     }
+
+/*Info mobile*/
+    .info-image {
+        display: none;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .card-image {
+        display: none;
+    }
+
+    .mobile-card-image {
+        text-align: center;
+        margin: 16px;
+    }
+
+    .card-text {
+        margin: 16px 32px;
+    }
+ 
+}
+
+/*Full screen corrections to hide mobile elements*/
+@media only screen and (min-width: 769px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-card-image {
+        display: none;
+    }
 }
