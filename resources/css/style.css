@@ -340,6 +340,7 @@ html {
 
     .hero-text {
         padding: 16px;
+        margin-right: 0;
     }
 
 /*Info mobile*/
@@ -349,6 +350,7 @@ html {
 
     .card {
         display: block;
+        padding-right: 0;
     }
 
     .card-image {
@@ -357,7 +359,11 @@ html {
 
     .mobile-card-image {
         text-align: center;
-        margin: 16px;
+        padding: 16px;
+    }
+
+    .mobile-card-image-img {
+        width: 100%;
     }
 
     .card-text {
