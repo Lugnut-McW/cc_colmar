@@ -147,12 +147,12 @@ html {
     align-items: center;
     padding-right: 24px;
 }
-
+/*
 .card:hover {
     background-color:lightgray;
     transition: background-color 1.5s;
 }
-
+*/
 .card-image-img {
    width: 15vw;
 }
@@ -369,7 +369,42 @@ html {
     .card-text {
         margin: 16px 32px;
     }
- 
+
+    /*Learning Mobile*/
+    .start-learning {
+        display: none;
+    }
+
+    .learning-mobile-item {
+        font-size: 32px;
+        text-align: center;
+        background-color:lightgray;
+        padding: 16px;
+        margin: 8px 16px;
+        color:rgb(63, 63, 63);
+    }
+
+    /*Thesis exhibits mobile*/
+    .thesis-cards {
+        display: none;
+    }
+
+    .thesis-main {
+        padding: 0;
+    }
+
+    .video-main {
+        display: none;
+    }
+
+    .video-lorem {
+        display: none;
+    }
+
+    .thesis-video-vid{
+        margin: 0;
+        width: 100vw;
+    }
 }
 
 /*Full screen corrections to hide mobile elements*/
@@ -379,6 +414,15 @@ html {
     }
 
     .mobile-card-image {
+        display: none;
+    }
+
+    .card:hover {
+        background-color:lightgray;
+        transition: background-color 1.5s;
+    }
+
+    .learning-mobile {
         display: none;
     }
 }
